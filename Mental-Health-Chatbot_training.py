@@ -100,3 +100,8 @@ for batch_size in batch_sizes:
 # save the model to disk
 model.save("Mental-Health-Chatbot_model.h5", hist)
 print("Model created and saved to disk")
+
+
+
+
+# REASSESS THE NN MODEL

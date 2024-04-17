@@ -56,5 +56,11 @@ while True:
         res = get_response(ints, intents)
         print(res)
     else:
-        print("Please enter a message.")
+        print("Welcome!How can I help you?")
 
+
+
+
+
+
+# REASSESS THE CONTEXT MANAGEMENT FEATURE

@@ -24,18 +24,12 @@
         "Tulia"
       ],
       "responses": [
-        "Hello there. Tell me how are you feeling today?",
-        "Hi there. What brings you here today?",
-        "Hi there. How are you feeling today?",
-        "Great to see you. How do you feel currently?",
-        "Hello there. Glad to see you're back. What's going on in your world right now?",
-        "Hey, I'm Tulia. How can I assist you today?",
-        "Hi, I'm Tulia. What's on your mind?",
-        "Hello, I'm Tulia. How can I support you today?",
-        "Hey there, I'm Tulia. How are you feeling?",
-        "Hi, it's Tulia here. What's on your mind?",
-        "Hello, Tulia here. How can I help you today?"
-      ]
+        "Hello there! It's good to connect with you. How have you been feeling lately? Is there anything on your mind that you'd like to share?",
+        "Hi there! I'm here to listen and support you. How are you feeling today? Is there anything specific that's been weighing on your mind?",
+        "Hi there! How are you feeling? Remember, it's okay not to be okay. Is there anything I can do to help or support you?",
+        "Great to see you! How are you holding up? I'm here to lend an ear if you need someone to talk to. What's been going on in your world lately?",
+        "Hello there! I'm glad you're here. How are you feeling emotionally? If there's anything you'd like to discuss or share, I'm all ears."
+    ]    
     },
     {
       "tag": "morning",
@@ -254,7 +248,6 @@
       "responses": [
         "I was created by Jamleck Mathenge.",
         "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques.",
-        "The real question is: Who created you?",
         "I owe my existence to Jamleck Mathenge.",
         "My creator is Jamleck Mathenge. They trained me using Deep Learning & NLP techniques.",
         "I was brought to life by Jamleck Mathenge through the magic of Deep Learning & NLP.",
@@ -364,6 +357,28 @@
       ]
     },
     {
+      "tag": "Self-care Tips",
+      "patterns": [
+          "Can you provide some self-care tips?",
+          "How can I practice self-care?",
+          "Any advice on self-care?",
+          "What are some self-care strategies?",
+          "How can you help me?",
+          "I want some help with self-care.",
+          "Do you have any suggestions for self-care?",
+          "Could you offer guidance on self-care?",
+          "I'm looking for ways to take care of myself.",
+          "Can you give me tips for self-care?",
+          "I'm feeling overwhelmed. How can I practice self-care?",
+          "What can I do to prioritize my mental health?",
+          "How do I take care of myself when I'm stressed?",
+          "How can I better manage my emotional well-being?"
+      ],
+      "responses": [
+          "To improve your mental health, consider these self-care tips: 1. Prioritize sleep and rest. 2. Engage in activities you enjoy, such as hobbies or exercise. 3. Practice mindfulness and relaxation techniques. 4. Set boundaries and learn to say no when needed. 5. Connect with supportive friends or family members. Remember to prioritize your own needs and take time for yourself."
+      ]
+  },  
+    {
       "tag": "worthless",
       "patterns": [
         "I feel so worthless.",
@@ -402,7 +417,17 @@
         "I'm struggling to find joy in anything",
         "I'm feeling overwhelmed by sadness",
         "I don't see a way out",
-        "I'm losing interest in everything"
+        "I'm losing interest in everything",
+        "How can I manage stress?",
+        "Any tips for stress relief?",
+        "What are some stress management techniques?",
+        "I'm feeling stressed out. What should I do?",
+        "Can you help me with stress management?",
+        "How do I cope with stress?",
+        "Do you have any suggestions for reducing stress?",
+        "I'm overwhelmed. How can I deal with stress?",
+        "How can I handle stress better?",
+        "What are some ways to relax and unwind?"
       ],
       "responses": [
         "It helps to talk about what's happening. You're going to be okay.",
