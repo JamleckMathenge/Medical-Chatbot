@@ -27,12 +27,12 @@ The chatbot uses natural language processing (NLP) techniques to understand user
 
 ## Contributors
 
-- [Your Name] - Developer
+- Jamleck Mathenge - Developer
 
 ## Acknowledgments
 
-Special thanks to [source of data or inspiration] for providing valuable resources and information for building this chatbot.
+Special thanks to Kaggle for providing valuable resources and information for building this chatbot.
 
 ## License
 
-This project is licensed under the [Your License] License - see the LICENSE.md file for details.
+This project is licensed under the JAM.TECH LTD License.
