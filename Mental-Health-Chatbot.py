@@ -7,10 +7,10 @@ from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open(r"C:\Users\user\Medical Chatbot\Medical-Chatbot\Mental-Health-Chatbot_intents").read())
-words = pickle.load(open(r"C:\Users\user\Medical Chatbot\Medical-Chatbot\Mental-Health_data_words.pkl", "rb"))
-classes = pickle.load(open(r"C:\Users\user\Medical Chatbot\Medical-Chatbot\Mental-Health_data_classes.pkl", "rb"))
-model = load_model(r"C:\Users\user\Medical Chatbot\Medical-Chatbot\Mental-Health-Chatbot_model.h5")
+intents = json.loads(open(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health-Chatbot_intents").read())
+words = pickle.load(open(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health_data_words.pkl", "rb"))
+classes = pickle.load(open(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health_data_classes.pkl", "rb"))
+model = load_model(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health-Chatbot_model.h5")
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)

@@ -20,7 +20,7 @@ from tensorflow.keras.regularizers import l2
 lemmatizer = WordNetLemmatizer()
 
 # load intents from json file
-intents = json.loads(open(r"C:\Users\user\Medical Chatbot\Medical-Chatbot\Mental-Health-Chatbot_intents").read())
+intents = json.loads(open(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health-Chatbot_intents").read())
 
 # create empty lists for words, classes and documents
 words = []
@@ -45,8 +45,8 @@ words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
 # save words and classes as pickle files
-pickle.dump(words, open("Mental-Health_data_words.pkl", "wb"))
-pickle.dump(classes, open("Mental-Health_data_classes.pkl", "wb"))
+pickle.dump(words, open(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health_data_words.pkl", "wb"))
+pickle.dump(classes, open(r"C:\Users\user\Projects\Medical Chatbot\Mental-Health_data_classes.pkl", "wb"))
 
 # create training data
 training = []
@@ -74,6 +74,10 @@ train_y = list(training[:, 1])
 # create the neural network model
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation="relu", kernel_regularizer=l2(0.001)))
+model.add(Dropout(0.5))
+model.add(Dense(128, input_shape=(len(train_x[0]),), activation="relu", kernel_regularizer=l2(0.001)))
+model.add(Dropout(0.5))
+model.add(Dense(64, activation="relu", kernel_regularizer=l2(0.001)))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation="relu", kernel_regularizer=l2(0.001)))
 model.add(Dropout(0.5))
